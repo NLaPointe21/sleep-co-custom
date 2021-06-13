@@ -6,7 +6,7 @@
 
 /* ----------------------Universal syles + utility classes -------*/
 body {
-  color: #192b37;
+  color: #010202;
   font-family: "Catamaran", sans-serif;
 }
 
@@ -27,7 +27,7 @@ body {
 }
 
 .bg-dark {
-  background-color: #192b37;
+  background-color: #1f3443;
   color: #ffffff;
 }
 
@@ -37,6 +37,10 @@ body {
 
 .text-right {
   text-align: right;
+}
+
+.tall-65 {
+  min-height: 65vh;
 }
 
 .tall-70 {
@@ -57,7 +61,7 @@ body {
 
 /* ----------------------Typogorgaphy styles --------------------*/
 h2 {
-  font-size: 2.5rem;
+  font-size: 2.6rem;
   line-height: 1.1;
   margin-bottom: 1rem;
 }
@@ -67,6 +71,7 @@ h3 {
 }
 
 p {
+  font-size: 1.2rem;
   font-weight: 200;
   line-height: 1.5;
   margin-bottom: 1rem;
@@ -83,7 +88,7 @@ a {
 }
 
 .featured-text {
-  color: #ffbe00;
+  color: #00a8b8;
 }
 
 .featured-text-white {
@@ -130,9 +135,10 @@ a {
 /* ----------------------Header--------------------------------- */
 /* oPJveyQEjKY */
 header {
-  background-image: url("https://source.unsplash.com/oPJveyQEjKY");
+  background-image: url("https://source.unsplash.com/HmLs5_VGQjE");
+  /* zunQwMy5B6M */
   background-size: cover;
-  background-position: center;
+  background-position: 50% 20%;
 }
 
 header h3 {
@@ -143,16 +149,22 @@ header h3 {
 /* ----------------------Gallery Section---------------------- */
 /* S2AcayPkszE */
 
-.bg-bed {
-  background-image: url("https://source.unsplash.com/uocSnWMhnAs");
+.bg-bridge {
+  background-image: url("https://source.unsplash.com/n14FypTcKeg");
   background-size: cover;
   background-position: center;
 }
 
-.bg-pug {
-  background-image: url("https://source.unsplash.com/S2AcayPkszE");
+.bg-pizza {
+  background-image: url("https://source.unsplash.com/ajKKNh0yfJU");
   background-size: cover;
-  background-position: 50% 35%;
+  background-position: 50% 80%;
+}
+
+.bg-gondola {
+  background-image: url("https://source.unsplash.com/9v9JDw-bGqw");
+  background-size: cover;
+  background-position: center;
 }
 
 /* ----------------------Feautures Section-------------------- */
@@ -176,5 +188,5 @@ footer a {
 }
 
 footer a:hover {
-  color: #ffbe00;
+  color: #00a8b8;
 }
